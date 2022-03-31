@@ -1,9 +1,6 @@
 //-----------------------------------------------------
 // Title: TrieST.java
-// Author: Kayra Polat - Baturalp Kýzýltan
-// IDs: 1000306178 - 4456996054
-// Section: 1
-// Assignment: 5
+// Author: Kayra POLAT - Baturalp KIZILTAN
 // Description: This class represents an symbol table of key-value pairs, with string keys and generic values. It create R-way Trie API.
 //-----------------------------------------------------
 
