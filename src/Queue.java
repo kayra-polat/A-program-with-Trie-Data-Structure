@@ -1,9 +1,6 @@
 //-----------------------------------------------------
 // Title: Queue.java
-// Authors: Kayra Polat - Baturalp Kýzýltan
-// IDs: 1000306178 - 4456996054
-// Section: 1
-// Assignment: 5
+// Authors: Kayra POLAT - Baturalp KIZILTAN
 // Description: This class defines a generic type of an item in queue.
 //-----------------------------------------------------
 
