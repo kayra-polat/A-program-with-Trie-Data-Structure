@@ -1,9 +1,6 @@
 //-----------------------------------------------------
 // Title: Driver.java
-// Author: Kayra Polat - Baturalp Kýzýltan
-// IDs: 1000306178 - 4456996054
-// Section: 1
-// Assignment: 5
+// Author: Kayra Polat - Baturalp Kiziltan
 // Description: This class is run the whole program
 //-----------------------------------------------------
 
@@ -15,7 +12,7 @@ public class Driver {
 	public static char[] replaceString(char[] str) {
 		// --------------------------------------------------------------
 		// Summary: A special static function to take a string to char array an replace
-		// 'I' to 'i'. Because program perceive letter 'I' to 'ý'. Have to change this I
+		// 'I' to 'i'. Because program perceive letter 'I' to 'Ã½'. Have to change this I
 		// to 'i'.
 		// Precondition: str is a char array
 		// Postcondition: Replaced the 'I' 's to 'i'
@@ -126,7 +123,7 @@ public class Driver {
 			// reducing any word or letter received from the user, on the other hand, when
 			// we call Locale.ENGLISH, it translates each received character according to
 			// the English language. For example, when the user enters the letter 'I',
-			// normally when we take the lower case to this letter, this letter makes 'ý'
+			// normally when we take the lower case to this letter, this letter makes 'Ã½'
 			// because our program language is in Turkish infrastructure. However, when we
 			// make the language English in this way, we can convert the letter 'I' to the
 			// letter 'i'.
