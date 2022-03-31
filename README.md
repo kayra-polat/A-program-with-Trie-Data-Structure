@@ -41,6 +41,8 @@
 - If the user enters an input such as <input1.txt> <1> <word>, the Search (String arg) function will run. This boolean function will print "True" if it returns true and "False" if it returns false. We call this function from the TrieHelper object we created. This function navigates in the existing trieST. It returns true if the word given by the user exists in trieST, otherwise false.
   
   <a href="url"><img src="https://user-images.githubusercontent.com/75734949/161159196-a14a23ff-68b3-4920-95a0-eda96975ce40.png" align="middle" height="75" width="300" ></a>
+  
+  <a href="url"><img src="https://user-images.githubusercontent.com/75734949/161159367-b984f9d5-7917-43d6-bc57-3b224ed36350.png" align="middle" height="75" width="300" ></a>
 
 
 
