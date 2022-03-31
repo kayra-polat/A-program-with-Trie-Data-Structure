@@ -20,7 +20,7 @@
 
 <a href="url"><img src="https://user-images.githubusercontent.com/75734949/161155686-74ae79da-fda9-4228-9b7c-0872c849148d.png" align="left" height="150" width="350" ></a>
 
-<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161156078-6f3756fd-b2be-40f6-b869-be5fdfc491fb.png" align="middle" height="50" width="350" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161156078-6f3756fd-b2be-40f6-b869-be5fdfc491fb.png" align="middle" height="50" width="350" ></a>  
 
 
 - While adding each word to trie, we should not ignore a very critical point. For the findTopk function to work correctly, it was necessary to know how many times each word was repeated while reading the file. To achieve this, we kept a 'count' integer data structure inside the Node class in the TrieST class. Basically, count keeps track of how many times a word has been overwritten. This allows us to reach the number of each word in the file we have. This if case uses the Search method to check if the current word has been added to trie before. If it is added, it takes the count of the current word. It adds (overwrites) the trie again by increasing the received count by one.
