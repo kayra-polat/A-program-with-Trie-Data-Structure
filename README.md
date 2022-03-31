@@ -16,4 +16,4 @@
   <filename> <function number> <word>
   ```
 - After receiving the user input, we started reading the file. We take one line and split it with the given regexes. We convert each word into lowercase letters and add them to our trie. Also, in this part, we have a special if case for the letter 'I'. The program calls the replaceString() function every time it sees the letter 'I'. This function converts 'I' to 'i'. In this way, we prevent the letter 'I' from being reduced to 'i' before the reduction operation. Before creating the words, we create our empty trie and empty reversedtrie and send these tries to the constructor method of the TrieHelper class.
-  ![](https://user-images.githubusercontent.com/75734949/161155520-90303cf3-0077-4eae-81f1-97a55810ba39.png | width = 100)
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161155686-74ae79da-fda9-4228-9b7c-0872c849148d.png" align="left" height="48" width="48" ></a>
