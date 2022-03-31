@@ -1,9 +1,6 @@
 //-----------------------------------------------------
-// Title: Puzzle Solver class
-// Author: Kayra Polat - Baturalp KIZILTAN
-// ID: 1000306178 - 4456996054
-// Section: 1
-// Assignment: 5
+// Title: Puzzle Solver.java
+// Author: Kayra POLAT - Baturalp KIZILTAN
 // Description: This class contains the required logic to be able solve
 // implement the 6th functionality (puzzle solving) of the assignment.
 //-----------------------------------------------------
