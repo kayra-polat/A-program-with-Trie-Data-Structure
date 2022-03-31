@@ -34,6 +34,7 @@
 <a href="url"><img src="https://user-images.githubusercontent.com/75734949/161156209-3ddde87e-cbdd-4e70-83c6-ff64bac7f1a5.png" align="left" height="100" width="250" ></a>
 <a href="url"><img src="https://user-images.githubusercontent.com/75734949/161156949-7f04b346-a32a-4a68-8e46-454ff9c0ea27.png" align="middle" height="75" width="200" ></a>
 <br/>
+<br/>
 
 - After creating our original trie structure, we created a new trie by reversing the string keys in the original trie created for the implementation of the reverseAutoComplete() function (reversedTrieST). We will explain why we do this when we explain the reverseAutoComplete function.
 - At this stage of the driver class, a switch-case structure that functions according to the user's inputs. While reducing any word or letter received from the user, on the other hand, when we call Locale.ENGLISH, it translates each received character according to the English language. For example, when the user enters the letter 'I', normally when we take the lower case to this letter, this letter makes 'ı' because our program language is in Turkish infrastructure. However, when we make the language English in this way, we can convert the letter 'I' to the letter 'i'.
