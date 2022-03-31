@@ -1,6 +1,6 @@
 //-----------------------------------------------------
 // Title: Driver.java
-// Author: Kayra Polat - Baturalp Kiziltan
+// Author: Kayra POLAT - Baturalp KIZILTAN
 // Description: This class is run the whole program
 //-----------------------------------------------------
 
