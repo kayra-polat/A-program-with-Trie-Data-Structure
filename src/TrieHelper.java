@@ -1,9 +1,6 @@
 //-----------------------------------------------------
 // Title: TrieHelper.java
-// Author: Kayra Polat - Baturalp Kýzýltan
-// IDs: 1000306178 - 4456996054
-// Section: 1
-// Assignment: 5
+// Author: Kayra POLAT - Baturalp KIZILTAN
 // Description: This is a Helper Trie class to run the given algorithms. Driver class is use this class directly. The methods in it meet all the requirements.
 //-----------------------------------------------------
 
