@@ -50,7 +50,7 @@
 
 <a href="url"><img src="https://user-images.githubusercontent.com/75734949/161336294-338d8295-fb50-4770-8129-6c6d586ce4b7.png" align="left" height="175" width="300" ></a>
 
-<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161336353-c51caf48-5158-473c-a7ea-685c2a4a4b58.png" align="left" height="150" width="300" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161336353-c51caf48-5158-473c-a7ea-685c2a4a4b58.png" align="left" height="175" width="350" ></a>
 
 
 
