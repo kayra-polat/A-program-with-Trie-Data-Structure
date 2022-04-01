@@ -77,6 +77,19 @@
 
 <a href="url"><img src="https://user-images.githubusercontent.com/75734949/161338019-2f6b15a4-33d3-432b-8ec2-4055be705dac.png" align="left" height="50" width="250" ></a>
 
+<br/>
+<br/>
+<br/>
+
+- If the user enters an input such as ```<input1.txt> <5> <int k>```, the **findTopK (int k)** function works. This function uses the counts we created in the Node class before. For this, we create a HashMap with the words and their counts. Then we sort this HashMap in descending order of its values (i.e., counts) (To do this sorting process, we use a private helper class which name is sorting_by_descending). We have a HashMap called reverseSortedMap for this sorting operation. Our sorted data is kept in this list. Then we get the key strings in this reverseSortedMap HashMap. (The retrieval process changes according to the k value given to the function. If the user enters 2, at most 2 repeating words are suppressed.)
+
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161338568-fe7e0e5d-4553-49bd-b059-e69c67b6c6e2.png" align="middle" height="250" width="500" ></a>
+
+- If the user enters an input such as ```<input1.txt> <6> <puzzle1.txt>```, **SolvePuzzle (String filepath)** method gets executed (as shown left below). The method makes use of PuzzleSolver the helper class. PuzzleSolver maintains a 2D array from the given puzzle input file. Then “Contains (String key)” the public method of PuzzleSolver that is able to be used for searching a specific pattern (e.g., a word/key/substring, previously stored using TrieST structure), behaves like a wrapper method between PuzzleSolver and the main program. In the internal structure of PuzzleSolver class, there is placed “hasPatternOf” the private method to run a usual algorithm for finding the given key in the puzzle character array along the horizontal, vertical, or diagonal directions as represented right below.
+
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161338976-26587000-98ff-4ee3-a630-ce15b73dea68.png" align="left" height="200" width="350" ></a>
+
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161339080-ed9d7e20-664d-453e-a480-9875ae15e0ae.png" align="left" height="300" width="350" ></a>
 
 
 
