@@ -44,6 +44,13 @@
   
   <a href="url"><img src="https://user-images.githubusercontent.com/75734949/161159367-b984f9d5-7917-43d6-bc57-3b224ed36350.png" align="middle" height="100" width="350" ></a>
 
+- If the user enters an input such as ```<input1.txt> <2> <word>```, the autoComplete (String prefix) function works. This function allows us to find all the words starting with the given prefix in trieST. This function takes the queue returned from the keywithprefix () method in the TrieST.java class and adds this data to the buffer array-list. Buffer array-list is a global and temporary array-list that we created in this class. All functions will use this array-list. The purpose of this is to sort and print all the words we obtain in a lexicographic way. We also have a separate print () function for the print operation.
+
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161336236-44f19a8e-7cd2-4d10-8892-e17e18343fdc.png" align="left" height="75" width="300" ></a>
+
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161336294-338d8295-fb50-4770-8129-6c6d586ce4b7.png" align="left" height="75" width="300" ></a>
+
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161336353-c51caf48-5158-473c-a7ea-685c2a4a4b58.png" align="left" height="75" width="300" ></a>
 
 
 
