@@ -39,13 +39,13 @@
 
 - After creating our original trie structure, we created a new trie by reversing the string keys in the original trie created for the implementation of the reverseAutoComplete() function (reversedTrieST). We will explain why we do this when we explain the reverseAutoComplete function.
 - At this stage of the driver class, a switch-case structure that functions according to the user's inputs. While reducing any word or letter received from the user, on the other hand, when we call Locale.ENGLISH, it translates each received character according to the English language. For example, when the user enters the letter 'I', normally when we take the lower case to this letter, this letter makes 'ı' because our program language is in Turkish infrastructure. However, when we make the language English in this way, we can convert the letter 'I' to the letter 'i'.
-- If the user enters an input such as ``` <input1.txt> <1> <word>```, the Search (String arg) function will run. This boolean function will print "True" if it returns true and "False" if it returns false. We call this function from the TrieHelper object we created. This function navigates in the existing trieST. It returns true if the word given by the user exists in trieST, otherwise false.
+- If the user enters an input such as ``` <input1.txt> <1> <word>```, the **Search (String arg)** function will run. This boolean function will print "True" if it returns true and "False" if it returns false. We call this function from the TrieHelper object we created. This function navigates in the existing trieST. It returns true if the word given by the user exists in trieST, otherwise false.
   
   <a href="url"><img src="https://user-images.githubusercontent.com/75734949/161159196-a14a23ff-68b3-4920-95a0-eda96975ce40.png" align="left" height="75" width="300" ></a>
   
   <a href="url"><img src="https://user-images.githubusercontent.com/75734949/161159367-b984f9d5-7917-43d6-bc57-3b224ed36350.png" align="middle" height="100" width="350" ></a>
 
-- If the user enters an input such as ```<input1.txt> <2> <word>```, the autoComplete (String prefix) function works. This function allows us to find all the words starting with the given prefix in trieST. This function takes the queue returned from the keywithprefix () method in the TrieST.java class and adds this data to the buffer array-list. Buffer array-list is a global and temporary array-list that we created in this class. All functions will use this array-list. The purpose of this is to sort and print all the words we obtain in a lexicographic way. We also have a separate print () function for the print operation.
+- If the user enters an input such as ```<input1.txt> <2> <word>```, the **autoComplete (String prefix)** function works. This function allows us to find all the words starting with the given prefix in trieST. This function takes the queue returned from the keywithprefix () method in the TrieST.java class and adds this data to the buffer array-list. Buffer array-list is a global and temporary array-list that we created in this class. All functions will use this array-list. The purpose of this is to sort and print all the words we obtain in a lexicographic way. We also have a separate print () function for the print operation.
 
 <a href="url"><img src="https://user-images.githubusercontent.com/75734949/161336236-44f19a8e-7cd2-4d10-8892-e17e18343fdc.png" align="left" height="75" width="300" ></a>
 
@@ -53,7 +53,11 @@
 
 <a href="url"><img src="https://user-images.githubusercontent.com/75734949/161336353-c51caf48-5158-473c-a7ea-685c2a4a4b58.png" align="left" height="175" width="350" ></a>
 
+- If the user enters an input such as ```<input1.txt> <3> <word>```, **the reverseAutoComplete (String suffix)** function works. First take reversed version of taken input because we must look this given word to reversedTrieST. To find a suffix, we reversed the tried and tested words. We reversed the suffix we received from the user. Let's make a correct prefix call inside reversedTrieST. Basically, we did a reversedTrieST ad prefix search, but this kind of implementation made it look like we were searching for suffix in the original trie. The **reversedAutoComplete (String suffix)** function calls * *keysWithPrefix ()* * on the generated reversedTrieST. It adds the data of the returning queue to the buffer array-list. However, since our data came in the reversed way during the insertion process, it converts them back to their original state with the reverseString function.
 
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161337220-abcfad84-397a-4fd8-b036-e05d7cd122c2.png" align="left" height="75" width="350" ></a>
+
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161337308-e7a6fa44-e81c-4cd2-9907-867e60d4ec12.png" align="right" height="75" width="350" ></a>
 
 
 
