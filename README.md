@@ -66,7 +66,7 @@
 
 <a href="url"><img src="https://user-images.githubusercontent.com/75734949/161337691-0d1cea8b-3e45-43eb-8038-4e33253ce55d.png" align="left" height="60" width="350" ></a>
 
-<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161337733-c93610a7-6bbb-42b3-8da9-858cc9d1e93f.png" align="left" height="80" width="300" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161337733-c93610a7-6bbb-42b3-8da9-858cc9d1e93f.png" align="left" height="90" width="250" ></a>
 
 
 
