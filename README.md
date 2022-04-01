@@ -55,9 +55,9 @@
 
 - If the user enters an input such as ```<input1.txt> <3> <word>```, **the reverseAutoComplete (String suffix)** function works. First take reversed version of taken input because we must look this given word to reversedTrieST. To find a suffix, we reversed the tried and tested words. We reversed the suffix we received from the user. Let's make a correct prefix call inside reversedTrieST. Basically, we did a reversedTrieST ad prefix search, but this kind of implementation made it look like we were searching for suffix in the original trie. The **reversedAutoComplete (String suffix)** function calls * *keysWithPrefix ()* * on the generated reversedTrieST. It adds the data of the returning queue to the buffer array-list. However, since our data came in the reversed way during the insertion process, it converts them back to their original state with the reverseString function.
 
-<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161337220-abcfad84-397a-4fd8-b036-e05d7cd122c2.png" align="left" height="75" width="350" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161337220-abcfad84-397a-4fd8-b036-e05d7cd122c2.png" align="left" height="100" width="350" ></a>
 
-<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161337308-e7a6fa44-e81c-4cd2-9907-867e60d4ec12.png" align="right" height="75" width="350" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161337308-e7a6fa44-e81c-4cd2-9907-867e60d4ec12.png" align="middle" height="150" width="350" ></a>
 
 
 
