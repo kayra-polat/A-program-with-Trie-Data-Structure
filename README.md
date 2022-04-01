@@ -75,10 +75,8 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
 
-<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161338019-2f6b15a4-33d3-432b-8ec2-4055be705dac.png" align="left" height="75" width="250" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161338019-2f6b15a4-33d3-432b-8ec2-4055be705dac.png" align="left" height="50" width="250" ></a>
 
 
 
