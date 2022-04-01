@@ -70,7 +70,7 @@
 
 <a href="url"><img src="https://user-images.githubusercontent.com/75734949/161337935-84053da0-6724-4ee5-8004-2e3d2e101c89.png" align="left" height="75" width="250" ></a>
 
-<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161338019-2f6b15a4-33d3-432b-8ec2-4055be705dac.png" align="middle" height="75" width="250" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/75734949/161338019-2f6b15a4-33d3-432b-8ec2-4055be705dac.png" align="right" height="75" width="250" ></a>
 
 
 
